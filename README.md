@@ -1,9 +1,6 @@
-# Predicting whether a student has a partner or not
-An attempt to build a model that predicts whether a student is romantically engaged, based on academic statistics.
+# Classifying digits, CNN-style
+~~"Fake neural network!" -- someone~~
+No, not that CNN
 
-This attempt essentially failed, and barring some breakthrough using parameters I didn't anticipate it seems like one cannot accurately predict whether a student with average math grades will have a romantic involvement or not. The exploratory data analysis (performed in the wrangling file) did however reveal that none of the students with perfect math scores had romantic involvements, so though the model itself was unable to draw conclusions from the data at hand, we can at least conclude that nerds in high school are romantically unpopular.
-
-I'm not happy with the accuracy of this model but at least I learned a few things from its construction. And the graph showing that most nerds in high school are virgins is funny to me, so it wasn't a complete loss.
-
-Data source: https://archive.ics.uci.edu/ml/datasets/student+performance
+A basic image classification task I did to get more familiar with Convolutional Neural Networks. Two neural networks are constructed: a normal sequential/dense one, and a convolutional neural network (CNN). The normal neural network achieved around 94% accuracy while the CNN had around 98% accuracy, demonstrating its superiority in image processing tasks.
 
